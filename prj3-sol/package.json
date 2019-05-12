@@ -1,0 +1,17 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "Name:\t\tEthan Elliott B-Number:\tB00663328 Email:\t\teelliot4@binghamton.edu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "doc-finder": "file:../../../doc-finder/zdu.binghamton.edu/cs580w/lib/doc-finder",
+    "express": "^4.16.4"
+  }
+}

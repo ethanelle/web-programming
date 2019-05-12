@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Docfinder Home</title>
+</head>
+<body>
+
+	<h1>Add Document</h1>
+	<form action="/docs/add_document/upload" method="post" enctype="multipart/form-data">
+		Select document to upload:
+		<input id="file" name="file" type="file">
+		<input id="submit" name="submit" type="submit" value="Upload"> 
+	</form>
+
+	<footer>
+		<ul>
+			<li><a href="/docs">Home</a></li>
+			<li><a href="/docs/search">Search</a></li>
+			<li><a href="/docs/add_document">Add Document</a></li>
+		</ul>
+	</footer>
+
+</body>
+</html>
